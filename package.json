@@ -1,14 +1,14 @@
 {
-    "name": "{{ project-name }}",
+    "name": "social-notify-worker",
     "private": true,
     "version": "1.0.0",
-    "description": "package for creating workers templates",
+    "description": "Receive Webhook and post to Social.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "prettier --write '**/*.{js,css,json,md}'"
     },
-    "author": "{{ authors }}",
+    "author": "@karuhi",
     "license": "ISC",
     "devDependencies": {
         "prettier": "^1.17.0"
