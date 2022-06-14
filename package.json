@@ -6,15 +6,17 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "format": "prettier --write '**/*.{js,css,json,md}'"
+        "format": "prettier --write '**/*.{js,css,json,md}'",
+        "dev": "npx wrangler dev index.js"
     },
     "author": "@karuhi",
     "license": "ISC",
     "devDependencies": {
-        "prettier": "^1.17.0"
+        "prettier": "^1.17.0",
+        "wrangler": "^2.0.11"
     },
     "dependencies": {
-        "itty-router": "^2.1.9",
+        "qs": "^6.10.5",
         "serverless-cloudflare-workers": "^1.2.0"
     }
 }
